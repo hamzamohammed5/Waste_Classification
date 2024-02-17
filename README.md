@@ -27,4 +27,6 @@ Prediction time:	0.2s to 0.5s
 	- Plot confusion matrix
 	- Visualize the misclassified images
 	- Testing the model using images downloaded from the internet
-
+-------------------------------------------------------------------------------
+# Images Classified using the model
+![](Init/doc1.png)
