@@ -29,4 +29,4 @@ Prediction time:	0.2s to 0.5s
 	- Testing the model using images downloaded from the internet
 -------------------------------------------------------------------------------
 # Images Classified using the model
-![](Init/doc1.png)
+![](Init/docs/doc1.png)
