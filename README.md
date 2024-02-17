@@ -1,7 +1,4 @@
 # Waste_Classification
-
-hamzamohammed5071@gmail.com   main
-
 Image Classification project.
 --------------------------------------------------------------------------------------------------------
 # Project Details:
