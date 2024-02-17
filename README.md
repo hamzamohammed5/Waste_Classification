@@ -1,8 +1,9 @@
 # Waste_Classification
 Image Classification project.
 --------------------------------------------------------------------------------------------------------
+
 # Project Details:
-----------------------
+
 Task:			Take an image and classify it as Recyclable or Organic
 
 Accuracy:		93%
@@ -11,7 +12,7 @@ Prediction time:	0.2s to 0.5s
 
 --------------------------------------------------------------------------------------------------------
 # Outlines:
---------------
+
 - Loading and processing data
 - Loading data into the pipeline
 - Visualizing Data
