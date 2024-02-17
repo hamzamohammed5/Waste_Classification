@@ -9,16 +9,16 @@ Prediction time:	0.2s to 0.5s
 --------------------------------------------------------------------------------------------------------
 # Outlines:
 --------------
-1- Loading and processing data
-2- Loading data into the pipeline
-3- Visualizing Data
-4- Split a small data set for tuning
+- Loading and processing data
+- Loading data into the pipeline
+- Visualizing Data
+- Split a small data set for tuning
 - Model Building
-	1- Choosing the best model architecture
-	2- Hyperparameter tuning
-	3- Train
-	4- Evaluation
-	5- Plot confusion matrix
-	6- Visualize the misclassified images
-	7- Testing the model using images downloaded from the internet
+	- Choosing the best model architecture
+	- Hyperparameter tuning
+	- Train
+	- Evaluation
+	- Plot confusion matrix
+	- Visualize the misclassified images
+	- Testing the model using images downloaded from the internet
 
