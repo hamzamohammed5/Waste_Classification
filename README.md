@@ -1,5 +1,7 @@
 # Waste_Classification
+
 Image Classification project.
+
 --------------------------------------------------------------------------------------------------------
 
 # Project Details:
