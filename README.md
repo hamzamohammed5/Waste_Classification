@@ -4,8 +4,11 @@ Image Classification project.
 # Project Details:
 ----------------------
 Task:			Take an image and classify it as Recyclable or Organic
+
 Accuracy:		93%
+
 Prediction time:	0.2s to 0.5s
+
 --------------------------------------------------------------------------------------------------------
 # Outlines:
 --------------
