@@ -13,7 +13,7 @@ Prediction time:	0.2s to 0.5s
 2- Loading data into the pipeline
 3- Visualizing Data
 4- Split a small data set for tuning
-5- Model Building
+- Model Building
 	1- Choosing the best model architecture
 	2- Hyperparameter tuning
 	3- Train
