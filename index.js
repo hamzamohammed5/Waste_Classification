@@ -19,29 +19,16 @@ async function loadMyModel() {
 }
 
 async function loadImage() {
-  // Get the file input and output image element
+  /*Load The image and convert it to a tensor*/
   var fileInput = document.getElementById('fileInput');
-
-  // Check if a file is selected
   if (fileInput.files.length > 0) {
-      // Get the selected file
       var selectedFile = fileInput.files[0];
-
-      // Create a FileReader to read the file
       var reader = new FileReader();
 
-      // Set a callback function to be called when the file is loaded
       reader.onload = async function (e) {
-          // Create an image element
           var imageElement = new Image();
-
-          // Set the src attribute of the image element with the file data URL
           imageElement.src = e.target.result;
-
-          // Set additional attributes if needed
           imageElement.alt = "Loaded Image";
-
-          // Load the image into a tensor
           const tensor = await loadImageToTensor(imageElement);
 
           // Predict
@@ -49,7 +36,6 @@ async function loadImage() {
           console.log(tensor);
       };
 
-      // Read the selected file as a data URL
       reader.readAsDataURL(selectedFile);
   } else {
       alert("Please select an image file.");
@@ -57,24 +43,18 @@ async function loadImage() {
 }
 
 async function loadImageToTensor(imageElement) {
-  // Create a canvas element
+  /*Conver Image to tensor*/
   const canvas = document.createElement('canvas');
   const context = canvas.getContext('2d');
-
-  // Draw the image onto the canvas
   context.drawImage(imageElement, 0, 0, imageElement.width, imageElement.height);
-
-  // Get the image data from the canvas
   const imageData = context.getImageData(0, 0, 224, 224);
-
-  // Convert the image data to a tensor
   let tensor = tf.browser.fromPixels(imageData);
   tensor= tensor.expandDims(0);
   tensor= tensor.toFloat().div(tf.scalar(255));
   return tensor;
 }
 
-// Visualize the image
+// Visualize the image in the web page
 document.getElementById('fileInput').addEventListener('change', (event) => {
   const file = event.target.files[0];
   if (file) {
@@ -108,16 +88,6 @@ async function predict(tensor) {
   
 }
 
-
-function startPredicting(){
-	isPredicting = true;
-	predict();
-}
-
-function stopPredicting(){
-	isPredicting = false;
-	predict();
-}
 
 async function init(){
 	const MyModel = await loadMyModel();
