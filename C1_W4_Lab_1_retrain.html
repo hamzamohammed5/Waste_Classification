@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+
+</head>
+<body>
+	<img id="previewImage" src="" alt="Selected Image" width="400">
+
+	<input type="file" id="fileInput" accept="image/*">
+    <button onclick="loadImage()">Predict</button>
+	
+	<div id="class"></div>
+	<div id="score"></div>
+	<div id="prediction_time"></div>
+</body>
+
+<script src="index.js"></script>
+</html>
