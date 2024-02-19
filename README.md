@@ -12,6 +12,8 @@ Accuracy:		93%
 
 Prediction time:	0.2s to 0.5s
 
+Deployment: Deployed to a simpe web page to calassify the image selected by user.
+
 --------------------------------------------------------------------------------------------------------
 # Outlines:
 
