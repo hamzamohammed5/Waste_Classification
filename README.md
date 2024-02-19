@@ -12,7 +12,7 @@ Accuracy:		93%
 
 Prediction time:	0.2s to 0.5s
 
-Deployment: Deployed to a simpe web page to calassify the image selected by user.
+Deployment: Deployed to a simple web page to classify the image selected by the user.
 
 --------------------------------------------------------------------------------------------------------
 # Outlines:
@@ -29,6 +29,20 @@ Deployment: Deployed to a simpe web page to calassify the image selected by user
 	- Plot confusion matrix
 	- Visualize the misclassified images
 	- Testing the model using images downloaded from the internet
+   	- Conver Model TF.js
+- Deployment
 -------------------------------------------------------------------------------
-# Images Classified using the model
+# Images Classified Using the Model
 ![](Init/docs/doc1.png)
+
+--------------------------------------------------------------------------------------------------------
+
+# Folders Description:
+
+- Init: contains the initialisation processes from data preprocessing to model testing.
+	- workspace: contains helper function I have used in the main notebook.
+- assets: contain the model converted to tf.js
+
+-------------------------------------------------------
+
+## If you are familiar with running HTML code on a local server, you can clone the repository and test the model
