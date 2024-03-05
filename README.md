@@ -10,7 +10,7 @@ Task:			Take an image and classify it as Recyclable or Organic
 
 Accuracy:		93%
 
-Prediction time:	0.2s to 0.5s
+Prediction time:	0.2s to 1s
 
 Deployment: Deployed to a simple web page to classify the image selected by the user.
 
